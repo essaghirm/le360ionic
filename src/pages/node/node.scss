@@ -1,0 +1,57 @@
+page-node {
+    ion-header{
+        .toolbar{
+            .toolbar-title{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .node{
+        width: 100%;
+        .img{
+            width: 100%;
+            max-height: 300px;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+                display: table;
+            }
+
+            h1{
+                font-size: 20px;
+                margin-bottom: 0;
+                color: #fff;
+                padding: 40px 15px 15px;
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                min-height: 60px;
+                background: rgb(255,78,25);
+                background: linear-gradient(0deg, rgba(255,78,25,1) 0%, rgba(255,78,25,0.80) 33%, rgba(255,78,25,0.50) 66%, rgba(255,255,255,0) 100%);
+            }
+        }
+
+        .content{
+            padding: 0 10px;
+
+            .pays{
+                margin-left: -10px;
+                margin-right: -10px;
+                background: darken(color($colors, light), 3%);
+                span{
+                    margin-right: 5px;
+                    padding: 10px;
+                    display:inline-block;
+                }
+            }
+
+            .node_bidy{
+                margin-top: 15px;
+            }
+        }
+    }
+}
